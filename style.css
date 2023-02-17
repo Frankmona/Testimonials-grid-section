@@ -136,6 +136,9 @@ img{
     flex-direction: column;
     gap: 1.5rem;
   }
+  footer{
+    display: none;
+}
 }
 
 footer{
