@@ -11,8 +11,8 @@ body{
 }
 
 .section1{
-    width: 500px;
-    min-height: 200px;
+    min-width: 100px;
+    min-height: 215px;
     background-color: hsl(263, 55%, 52%);
     border-radius: 8px;
 
@@ -51,14 +51,15 @@ img{
     font-size: 15px;
     color: hsl(0, 0%, 100%);
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .p_review{
     color: hsl(0, 0%, 100%);
     opacity: 70%;
     font-size: small;
-    padding-top: 10px;
+    padding-top: 20px;
+    line-height: 1.5;
 }
 
 .in_section{
@@ -66,14 +67,14 @@ img{
 }
 
 .section2{
-    width: 250px;
+    min-width: 250px;
     min-height: 200px;
     background-color: hsl(217, 19%, 35%);
     border-radius: 8px;
 }
 
 .section3{
-    width: 250px;
+    min-width: 250px;
     min-height: 200px;
     background-color: white;
     border-radius: 8px;
@@ -88,26 +89,44 @@ img{
     font-size: 15px;
     color: hsl(219, 29%, 14%);
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .p_review_background_white{
     color: hsl(219, 29%, 14%);
     opacity: 70%;
     font-size: small;
-    padding-top: 10px;
+    padding-top: 20px;
+    line-height: 1.5;
 }
 
 .section4{
-    width: 500px;
+    min-width: 250px;
     min-height: 200px;
     background-color: hsl(219, 29%, 14%);
     border-radius: 8px;
 }
 
 .section5{
-    width: 250px;
+    min-width: 250px;
     min-height: 200px;
     background-color: white;
     border-radius: 8px;
+}
+
+.testimonial-grid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    padding:30px
+}
+
+.grid_col_span_2{
+   grid-column: span 2;   
+}
+
+.section5{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3; 
 }
