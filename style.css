@@ -130,3 +130,10 @@ img{
     grid-row-start: 1;
     grid-row-end: 3; 
 }
+@media screen and (max-width: 414px) {
+    .testimonial-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
