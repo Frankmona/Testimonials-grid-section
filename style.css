@@ -137,3 +137,13 @@ img{
     gap: 1.5rem;
   }
 }
+
+footer{
+    font-size: small;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
